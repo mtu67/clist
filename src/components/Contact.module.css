@@ -1,0 +1,31 @@
+.person {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    /*background-color: #aaa;*/
+    margin: 1px 0;
+    padding: 5px;
+    /*border: 1px solid #ddd;*/
+    border-radius: 5px;
+    transition: background-color 0.1s;
+}
+
+.person:hover {
+    background-color: #eeeeee; /* Change background on hover */
+}
+
+.profilePic {
+    width: 50px; /* Set width for profile picture */
+    height: 50px; /* Set height for profile picture */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.infoH2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.1em; /* Increase font size for name */
+}
+
+.infoP {
+    margin: 2px 0 0; /* Space above email */
+    color: #555555; /* Change color for email */
+}
